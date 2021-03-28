@@ -1,5 +1,5 @@
 MESAJ="CyberUserBot Avtomatik Qurulumuna Xoş Gəldiniz!"
-MESAJ+="\nTelegram: @TheCyberUserBot"
+MESAJ+="\nTG: @TheCyberUserBot"
 pkg update -y
 clear
 echo -e $MESAJ
@@ -11,9 +11,9 @@ echo "Git Yüklənir"
 pkg install git -y
 clear
 echo -e $MESAJ
-echo "TeleThon Yüklenir"
+echo "TeleThon Yüklənir"
 pip install telethon
-echo "Repo klonlanıyor..."
+echo "Repo klonlanır..."
 git clone https://github.com/FaridDadashzade/Installer
 clear
 echo -e $MESAJ
