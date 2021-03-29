@@ -1,3 +1,3 @@
 # deploy
 
-for https://FaridDadashzade/CyberUserBot
+for https://github.com/FaridDadashzade/CyberUserBot.git
