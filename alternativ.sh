@@ -1,5 +1,5 @@
 MESAJ="CyberUserBot Avtomatik Deploy Qurulumuna Xoş Geldiniz"
-MESAJ+="\nTG: @TheCyberUseeBot"
+MESAJ+="\nTG: @TheCyberUserBot"
 apt update 
 clear
 echo -e $MESAJ
