@@ -23,4 +23,4 @@ echo "Bəzi Alt Yapi Dosyaları Yüklənir"
 echo -e $MESAJ
 pip install wheel
 pip install -r requirements.txt
-python -m asena_installer
+python -m cyber_installer
