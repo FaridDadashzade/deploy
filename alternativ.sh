@@ -23,4 +23,4 @@ echo "Bezi dosyalar yuklenir"
 echo -e $MESAJ
 pip3 install wheel
 pip3 install -r requirements.txt
-python3 -m asena_installer
+python3 -m cyber_installer
