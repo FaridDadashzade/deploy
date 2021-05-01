@@ -24,4 +24,4 @@ cd Installer
 python3 -m pip install wheel
 python3 -m pip install -r requirements.txt
 clear
-python3 -m asena_installer
+python3 -m cyber_installer
