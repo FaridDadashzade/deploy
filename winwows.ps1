@@ -11,4 +11,4 @@ Write-Output("Qurulum yüklenir...")
 git clone https://github.com/FaridDadashzade/Installer
 Set-Location Installer
 python3.8 -m pip install -r requirements.txt
-python3.8 -m asena_installer
+python3.8 -m cyber_installer
