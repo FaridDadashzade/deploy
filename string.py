@@ -15,7 +15,7 @@ pip install bs4
 clear
 echo -e $MESAJ
 echo "Fayl yazılır..."
-curl "https://raw.githubusercontent.com/FaridDadashzade/deploy/master/cyber.py" --output "cyber.py"
+curl "https://raw.githubusercontent.com/FaridDadashzade/deploy/main/cyber.py" --output "cyber.py"
 clear
 echo -e $MESAJ
 echo "Qurulum hazırdır, İndi String key-i ala bilərsiniz."
