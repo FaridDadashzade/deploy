@@ -7,7 +7,7 @@ echo "Python yüklənir..."
 pkg install python -y
 clear
 echo -e $MESAJ
-echo "TeleThon yüklənir..."
+echo "Telethon yüklənir..."
 pip install telethon
 echo "Requests/BS4 yüklənir..."
 pip install requests
