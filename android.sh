@@ -1,12 +1,4 @@
-MESAJ="
-
-   ________  ______  __________ 
-  / ____/\ \/ / __ )/ ____/ __ \
- / /      \  / __  / __/ / /_/ /
-/ /___    / / /_/ / /___/ _, _/ 
-\____/   /_/_____/_____/_/ |_|  
-
-"
+MESAJ="CyberUserBot Automatic Deploy"
 MESAJ+="\nUpdates Channel: @TheCyberUserBot"
 pkg update -y
 clear
