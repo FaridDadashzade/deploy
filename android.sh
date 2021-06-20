@@ -1,25 +1,31 @@
-MESAJ="CyberUserBot Avtomatik Qurulumuna Xoş Gəldiniz!"
-MESAJ+="\nTG: @TheCyberUserBot"
+MESAJ="
+   ________  ______  __________ 
+  / ____/\ \/ / __ )/ ____/ __ \
+ / /      \  / __  / __/ / /_/ /
+/ /___    / / /_/ / /___/ _, _/ 
+\____/   /_/_____/_____/_/ |_|  
+"
+MESAJ+="\nUpdates Channel: @TheCyberUserBot"
 pkg update -y
 clear
 echo -e $MESAJ
-echo "Python Yüklənir"
+echo "Python yüklənir"
 pkg install python -y
 clear
 echo -e $MESAJ
-echo "Git Yüklənir"
+echo "Git yüklənir"
 pkg install git -y
 clear
 echo -e $MESAJ
-echo "TeleThon Yüklənir"
+echo "Telethon yüklənir"
 pip install telethon
-echo "Repo klonlanır..."
+echo "Repo klonlanır"
 git clone https://github.com/FaridDadashzade/Installer
 clear
 echo -e $MESAJ
 cd Installer
 clear
-echo "Bəzi Alt Yapi Dosyaları Yüklənir"
+echo "Kitabxana yüklənir"
 echo -e $MESAJ
 pip install wheel
 pip install -r requirements.txt
