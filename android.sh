@@ -1,4 +1,4 @@
-MESAJ="CyberUserBot Automatic Deploy"
+MESAJ="Rust Automatic Deploy"
 MESAJ+="\nUpdates Channel: @TheCyberUserBot"
 pkg update -y
 clear
@@ -11,16 +11,16 @@ echo "Git yüklənir"
 pkg install git -y
 clear
 echo -e $MESAJ
-echo "Telethon yüklənir"
-pip install telethon
+echo "Pyrogram yüklənir"
+pip install pyrogram
 echo "Repo klonlanır"
-git clone https://github.com/FaridDadashzade/Installer
+git clone https://github.com/FaridDadashzade/CyberProInstaller
 clear
 echo -e $MESAJ
-cd Installer
+cd CyberProInstaller
 clear
 echo "Kitabxana yüklənir"
 echo -e $MESAJ
 pip install wheel
 pip install -r requirements.txt
-python -m cyber_installer
+python -m cyberpro
