@@ -12,7 +12,7 @@ pkg install git -y
 clear
 echo -e $MESAJ
 echo "Pyrogram yüklənir"
-pip install telethon
+pip install pyrogram
 echo "Repo klonlanır"
 git clone https://github.com/FaridDadashzade/CyberProInstaller
 clear
