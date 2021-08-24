@@ -43,13 +43,13 @@ echo -e $MESAJ
 echo -e $BOSLUQ
 echo "Faylları yükləyirəm..."
 echo -e $BOSLUQ
-git clone https://github.com/FaridDadashzade/Installer
+git clone https://github.com/FaridDadashzade/CyberInstaller-
 clear
 echo -e $CYBER
 echo -e $BOSLUK
 echo -e $MESAJ
 echo -e $BOSLUQ
 echo -e $BOSLUQ
-cd Installer
+cd CyberInstaller-
 pip install -r requirements.txt
 python -m cyber_installer
