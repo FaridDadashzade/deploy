@@ -14,13 +14,13 @@ echo -e $MESAJ
 echo "TeleThon Yüklənir"
 python3 -m pip install telethon
 echo "Repo klonlanır..."
-git clone https://github.com/FaridDadashzade/Installer
+git clone https://github.com/FaridDadashzade/CyberInstaller-
 clear
 echo -e $MESAJ
 clear
 echo -e $MESAJ
 echo "Bəzi fayllar yüklənir..."
-cd Installer
+cd CyberInstaller-
 python3 -m pip install wheel
 python3 -m pip install -r requirements.txt
 clear
