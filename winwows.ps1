@@ -8,7 +8,7 @@ scoop install git python@3.8
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 Write-Output("Qurulum yüklenir...")
 
-git clone https://github.com/FaridDadashzade/Installer
-Set-Location Installer
+git clone https://github.com/FaridDadashzade/CyberInstaller-
+Set-Location CyberInstaller-
 python3.8 -m pip install -r requirements.txt
 python3.8 -m cyber_installer
