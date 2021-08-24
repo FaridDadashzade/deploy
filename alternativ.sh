@@ -14,10 +14,10 @@ echo -e $MESAJ
 echo "TeleThon yüklenir"
 pip3 install telethon
 echo "Repo klonlanır..."
-git clone https://github.com/FaridDadashzade/Installer
+git clone https://github.com/FaridDadashzade/CyberInstaller-
 clear
 echo -e $MESAJ
-cd Installer
+cd CyberInstaller-
 clear
 echo "Bezi dosyalar yuklenir"
 echo -e $MESAJ
